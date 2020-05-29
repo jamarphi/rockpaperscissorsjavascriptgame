@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2 class="heading" id="player-info"></h2>
+    
+    <h1 class="heading" id="ai"></h1>
+
+    <div class="btn-choices" id="btn-choices">
+        <button id="rock" class="btn" onclick="checkChoice(event)">Rock</button>
+        <button id="paper" class="btn" onclick="checkChoice(event)">Paper</button>
+        <button id="scissors" class="btn" onclick="checkChoice(event)">Scissors</button>
+    </div>
+
+    <div style="position: fixed; bottom: 0; right: 0;">
+        <h1 id="score"></h1>
+    </div>
+
+    <div id="restart-box" style="display: none; margin: auto; width: 40%; height: auto; background: transparent;
+        border: 1px black solid; border-radius: 10px; padding: 5px; justify-content: center;">
+        <button id="no-btn" class="btn" style="background-color: red;">
+            No
+        </button>
+        <button id="yes-btn" class="btn">
+            Yes
+        </button>
+    </div>
+    <script src="gameLogic.js">
+    </script>
+</body>
+</html>

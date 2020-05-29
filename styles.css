@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    width: 100%;
+    margin-top: 1vh;
+}
+
+.btn-choices{
+    display: flex;
+    margin: 3vh auto;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+
+.btn{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 1vh;
+}
